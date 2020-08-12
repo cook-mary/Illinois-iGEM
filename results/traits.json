@@ -1,0 +1,406 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "9.0.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Bangladesh",
+        "China",
+        "Serbia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.27206218825371464,
+        0.4741052591309526,
+        0.2538325526153328
+      ],
+      "rate": 110.27232358867461,
+      "transition_matrix": [
+        [
+          0.0,
+          1.2107021871872148,
+          1.7794693058481217
+        ],
+        [
+          1.2107021871872148,
+          0.0,
+          1.8359902303310884
+        ],
+        [
+          1.7794693058481217,
+          1.8359902303310884,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "Asia",
+        "Europe",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.6385023768282209,
+        0.3614976231717791
+      ],
+      "rate": 51.259161324292705,
+      "transition_matrix": [
+        [
+          0.0,
+          2.16621739969963
+        ],
+        [
+          2.16621739969963,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "MT359231": {
+      "country": "Bangladesh",
+      "country_confidence": {
+        "Bangladesh": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415366": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415367": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415368": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415369": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415370": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MT415371": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MT415372": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415373": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415374": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415375": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415376": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT415377": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT434818": {
+      "country": "Serbia",
+      "country_confidence": {
+        "Serbia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MT521348": {
+      "country": "Serbia",
+      "country_confidence": {
+        "Serbia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000000": {
+      "country": "China",
+      "country_confidence": {
+        "Bangladesh": 0.004236653825875032,
+        "China": 0.9873194013424798,
+        "Serbia": 0.008443944831645244
+      },
+      "country_entropy": 0.07606282983224709,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9952180183491127,
+        "Europe": 0.0047819816508874015
+      },
+      "region_entropy": 0.030320180649755384
+    },
+    "NODE_0000002": {
+      "country": "Serbia",
+      "country_confidence": {
+        "Bangladesh": 0.032188718784624655,
+        "China": 0.10356933359202619,
+        "Serbia": 0.8642419476233492
+      },
+      "country_entropy": 0.4715449093522112,
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.03902247295548751,
+        "Europe": 0.9609775270445126
+      },
+      "region_entropy": 0.1648249736496978
+    },
+    "NODE_0000005": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.998698123283854,
+        "Serbia": 0.0010950897107180248
+      },
+      "country_entropy": 0.010520510741664836,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9995007740941436
+      },
+      "region_entropy": 0.004294442180165394
+    },
+    "NODE_0000006": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9915126473408188,
+        "Serbia": 0.007877528574248447
+      },
+      "country_entropy": 0.0511220665626793,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9951408768493373,
+        "Europe": 0.004859123150662675
+      },
+      "region_entropy": 0.030731348331348794
+    },
+    "NODE_0000007": {
+      "country": "China",
+      "country_confidence": {
+        "Bangladesh": 0.004278481302071053,
+        "China": 0.9118452317987934,
+        "Serbia": 0.08387628689913554
+      },
+      "country_entropy": 0.3153651760417625,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9306801548329964,
+        "Europe": 0.06931984516700365
+      },
+      "region_entropy": 0.25187603389010016
+    },
+    "NODE_0000009": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9915132342985484,
+        "Serbia": 0.007876956505052232
+      },
+      "country_entropy": 0.05111919037948994,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9951409853680447,
+        "Europe": 0.004859014631955247
+      },
+      "region_entropy": 0.03073077079071479
+    },
+    "NODE_0000010": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9993920085894208
+      },
+      "country_entropy": 0.005455707643678731,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999807803169855
+      },
+      "region_entropy": 0.0018368048172187294
+    },
+    "NODE_0000011": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999932081578344
+      },
+      "country_entropy": 9.012888088953441e-05,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9999987344071813
+      },
+      "region_entropy": 1.84523024186731e-05
+    },
+    "NODE_0000012": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9992582397785205
+      },
+      "country_entropy": 0.006502710518973302,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.999774557931219
+      },
+      "region_entropy": 0.0021185545520886607
+    },
+    "NODE_0000013": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9982904963085594,
+        "Serbia": 0.001260912186310107
+      },
+      "country_entropy": 0.013584160758436872,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9994738675405934
+      },
+      "region_entropy": 0.004498271761199957
+    },
+    "NODE_0000014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9986992550685145,
+        "Serbia": 0.0010940346212037206
+      },
+      "country_entropy": 0.010512668565103979,
+      "region": "Asia",
+      "region_confidence": {
+        "Asia": 0.9995009622142317
+      },
+      "region_entropy": 0.004293012064725504
+    },
+    "NODE_0000015": {
+      "country": "Serbia",
+      "country_confidence": {
+        "Bangladesh": 0.10460320097237741,
+        "China": 0.03475606819006379,
+        "Serbia": 0.8606407308375589
+      },
+      "country_entropy": 0.48207313843686395,
+      "region": "Europe",
+      "region_confidence": {
+        "Asia": 0.0016873479735645981,
+        "Europe": 0.9983126520264355
+      },
+      "region_entropy": 0.012458960795014807
+    }
+  }
+}
